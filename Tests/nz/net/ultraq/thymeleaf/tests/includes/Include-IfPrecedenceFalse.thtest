@@ -10,7 +10,7 @@
 <html xmlns:th="http://www.thymeleaf.org"
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <body>
-	<div th:if="${true}" layout:include="~{Page :: text}"></div>
+	<div th:if="${false}" layout:include="~{Page :: text}"></div>
 </body>
 </html>
 
@@ -30,8 +30,5 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<div>
-		<p>Included text</p>
-	</div>
 </body>
 </html>
